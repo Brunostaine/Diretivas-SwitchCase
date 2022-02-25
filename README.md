@@ -1,27 +1,14 @@
 # SwitchCase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+- Mostrar um pouco sobre diretivas no Angular, as diretivas são instruções e podemos chamar os componentes de diretivas. São basicamentes dois tipos de diretivas as diretivas estruturais e diretivas de atributos. 
 
-## Development server
+- Nesse projeto vou trabalhar com a diretiva estrutural a ngSwitchCase. É como se eu tivesse usando o Switch Case do javascript, porém aqui no framework fica mais fácil de usar e tem suas vantagens e uma dela é o tamanho do código que fica muito mais inxuto.
+- Criei um navbar com uma lista de três elementos que são Home, Mapa e Lista. Usei o bootstrap para dar um estilo, assim a tela fica mais bonitinha. Primeiro criei um novo component.ts e nele inseri uma variável do tipo string com o valor 'home'. 
+Usando o property bind e um event bind criei uma class para para ativar o item quando ele for clicado.
+- Depois foi criado uma outra div para poder usar as diretivas ngswitch e ngSwitchCase. Aqui vamos manipular os cliques e deixar uma mensagem em cada um dos itens para que seja disparado o evento quando clicado.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- É bem simples, mas acho que deu pra explicar um pouco de como funciona o código. 
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Autor
+- Bruno Staine
+- Linkedin: https://www.linkedin.com/in/bruno-staine-81b8a9185/
